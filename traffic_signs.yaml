@@ -1,0 +1,11 @@
+path: C:\Users\VISION\Desktop\IA\Identificador-placa-transito-main\dataset
+train: train.txt
+val: test.txt
+test:
+
+names:
+    0: circle
+    1: octagon
+    2: rectangle
+    3: rhombus
+    4: triangle
