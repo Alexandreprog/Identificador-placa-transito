@@ -69,13 +69,13 @@ Por fim, foi necessário realizar a criação de dois arquivos finais, sendo ele
 1. Inicialmente, o repositório deverá ser baixado e colocado em uma pasta de sua preferência;
 2. Posteriormente, o arquivo *path_preprocessing.py* deverá ser executado da seguinte forma:
 
-<center>*python path_preprocessing.py*</center>
+<p style="text-align: center;"><em>python path_preprocessing.py</em></p>
 
 3. Em seguida, o caminho para a pasta do *dataset* localizado dentro do repositório baixado deverá ser copiado e inserido no arquivo **.yaml** no local que está identificado com **path**;
 
 4. Finalmente, o arquivo *traffic_signs_predict.py* deverá ser executado da seguinte forma:
 
-<center>*python traffic_signs_predict.py*</center>
+<p style="text-align: center;"><em>python traffic_signs_predict.py</em></p>
 
 ## Melhorias Futuras
 
