@@ -1,6 +1,6 @@
 # Identificador Placa de Trânsito
 
-Este trabalho foi desenvolvido em trio durante a disciplina de Introdução à Inteligência Artificial, ministrada pela professora Dra. Thaís Gaudêncio do Rêgo, com o objetivo de desenvolver as habilidades técnicas necessárias aprendidas.
+Este trabalho foi desenvolvido em trio durante a disciplina de Introdução à Inteligência Artificial, ministrada pela professora Dra. Thaís Gaudencio do Rêgo, com o objetivo de desenvolver as habilidades técnicas necessárias aprendidas.
 
 ## Autores
 
