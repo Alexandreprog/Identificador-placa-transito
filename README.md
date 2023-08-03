@@ -82,6 +82,20 @@ Por fim, foi necessário realizar a criação de dois arquivos finais, sendo ele
 
 * **traffic_signs.yaml**: Este arquivo refere-se ao conjunto de dados, aos arquivos com os caminhos para as imagens e as anotações de cada classe. Dessa maneira, ele deverá ser estruturado da seguinte forma: 
 
+```python
+path: <caminho para a pasta do conjunto de dados>
+train: <nome do arquivo de texto com os caminhos para as imagens de treino>
+val: <nome do arquivo de texto com os caminhos para as imagens de teste>
+test: <deixa vazio ou adiciona o nome do arquivo de texto com os caminhos para as imagens de validação>
+
+names:
+    0: circle
+    1: octagon
+    2: rectangle
+    3: rhombus
+    4: triangle
+```
+
 * **traffic_signs_predict.py**: Este arquivo refere-se a criação e uso do modelo da YOLO V8, no qual ele está sendo treinado e testado com as imagens definidas no arquivo **.yaml**.
 
 ## Executando o Modelo
