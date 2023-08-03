@@ -46,6 +46,8 @@ Em seguida, a fim de aumentar o tamanho da base dados foi realizado *Data Augmen
 
 Após a aplicação do *Data Augmentation* e a escolha do modelo de rede neural, foi realizado a anotação das imagens seguindo o padrão requisitado pela YOLO para cada classe criada utilizando o *software LabelImg*, o qual pode ser observado abaixo:
 
+![triangle_annotation](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/28d8aee2-44ff-402a-84ac-4b973f57346e)
+
 As dependências utilizadas para o *Data Augmentation* foram:
 
 * PIL
