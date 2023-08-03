@@ -37,6 +37,9 @@ Dessa forma, buscamos criar nossa própria base de dados através do Google Maps
 
 Posteriormente, foi necessário escolher um modelo de rede neural que melhor se adequasse ao problema. Para isso, realizamos uma pesquisa para compreender os modelos existentes e sua facilidade de uso, levando em consideração o curto tempo disponível para a implementação do projeto. Assim, optamos pelo modelo YOLO V8 devido à sua superioridade em relação às versões anteriores, conforme pode ser observado no gráfico abaixo.
 
+![yolo-comparison-plots](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/daee0904-a6be-40ad-9a3f-eb4e37a5965d)
+###### **Fonte:** https://github.com/ultralytics/ultralytics
+
 Entretanto, a documentação da YOLO não foi tão acessível para um primeiro contato, sendo necessário realizar inúmeras pesquisas e testes a fim de conseguir compreender o que estava descrito e executar o modelo escolhido.
 
 Em seguida, a fim de aumentar o tamanho da base dados foi realizado *Data Augmentation*, no qual as operações de rotação, negativo, *flip*, transformação em escala de cinza foram aplicadas para cada classe. Essas transformações foram implementadas em código *Python*, a rotação foi realizada sob o ângulo de 45º e o *flip* foi na horizontal. Desse modo, nossa base de dados inicial teve seu tamanho aumentado de 1000 imagens para 5000 imagens totais.
