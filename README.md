@@ -82,7 +82,7 @@ Por fim, foi necessário realizar a criação de dois arquivos finais, sendo ele
 
 * **traffic_signs.yaml**: Este arquivo refere-se ao conjunto de dados, aos arquivos com os caminhos para as imagens e as anotações de cada classe. Dessa maneira, ele deverá ser estruturado da seguinte forma: 
 
-```python
+```yaml
 path: <caminho para a pasta do conjunto de dados>
 train: <nome do arquivo de texto com os caminhos para as imagens de treino>
 val: <nome do arquivo de texto com os caminhos para as imagens de teste>
