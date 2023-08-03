@@ -20,6 +20,21 @@ Após observar os fatos supracitados, foi realizada a procura por bases de dados
 
 Dessa forma, buscamos criar nossa própria base de dados através do Google Maps, realizando a captura de telas das placas de trânsito encontradas em rodovias do Nordeste e em algumas cidades do Brasil, como João Pessoa, Caicó, Cuiabá e Joinville. Além disso, escolhemos o formato das placas como critério de classificação: rectangle (retângulo), triangle (triângulo), circle (círculo), rhombus (losângulo), octagon (octágono). Para cada classe foram capturadas 200 imagens, totalizando 1000 imagens no conjunto de dados.
 
+### Classe **Circle**
+![c0010](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/36d94523-8b0e-415b-bfbc-c68452298943)
+
+### Classe **Octagon**
+![o0013](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/a3c5d16b-8f47-4bc9-b5c2-90ec9c3ea734)
+
+### Classe **Rectangle**
+![r0009](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/06a2de2b-78ba-4b53-8fc2-40beecb13e90)
+
+### Classe **Rhombus**
+![rh0010](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/da9a2cf0-65d9-4afe-8a89-228a555bf555)
+
+### Classe **Triangle**
+![t0005](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/f3a1fba0-4c60-4561-a495-e2b30e572e5e)
+
 Posteriormente, foi necessário escolher um modelo de rede neural que melhor se adequasse ao problema. Para isso, realizamos uma pesquisa para compreender os modelos existentes e sua facilidade de uso, levando em consideração o curto tempo disponível para a implementação do projeto. Assim, optamos pelo modelo YOLO V8 devido à sua superioridade em relação às versões anteriores, conforme pode ser observado no gráfico abaixo.
 
 Entretanto, a documentação da YOLO não foi tão acessível para um primeiro contato, sendo necessário realizar inúmeras pesquisas e testes a fim de conseguir compreender o que estava descrito e executar o modelo escolhido.
