@@ -115,6 +115,30 @@ python path_preprocessing.py
 python traffic_signs_predict.py
 ```
 
+## Resultados e Discussões
+
+Após a execução do modelo, foram utilizadas as seguintes métricas de avaliação:
+
+* Recall: Refere-se a capacidade do modelo de identificar as amostras positivas;
+* Precision: Refere-se a capacidade do modelo de classificar corretamente as previsões positivas.
+
+Dessa maneira, foi obtido o seguintes gráficos:
+
+* **Treino**
+
+![PR_curve](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/88cb4c9a-3ff3-4d1b-b128-a772d7194666)
+
+* **Teste**
+
+![PR_curve](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/5aca23bf-c365-47e0-a801-56b97e892ed4)
+
+Observando os gráficos acima podemos constatar a qualidade do modelo, pois as métricas utilizadas variam no intervalo entre 0 e 1, ou seja, entre 0% e 100%. Dessa forma, analisando as figuras verificamos que o nosso modelo obteve valores maiores que 98% para todas as classes, indicando a confiabilidade do modelo em identificar placas de trânsitos brasileiras de diferentes formatos. 
+
+Abaixo podemos observar a classificação para algumas imagens utilizadas na fase de testes.
+
+![val_batch1_pred](https://github.com/Alexandreprog/Identificador-placa-transito/assets/53544629/0e111f26-163a-4ffc-aeb0-8f5a360b1ddb)
+
+
 ## Melhorias Futuras
 
 1. Melhorar o algoritmo da rotação implementado para o *Data Augmentation*, em virtude de que o atual está inserindo ruído nas imagens;
