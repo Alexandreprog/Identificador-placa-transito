@@ -1,0 +1,3 @@
+PyQt5==5.15.9
+LabelImg==1.8.6
+ultralytics==8.0.117
