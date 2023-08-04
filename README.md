@@ -146,3 +146,9 @@ Abaixo podemos observar a classificação para algumas imagens utilizadas na fas
 2. Aumentar o tamanho do conjunto de dados capturando imagens de outros estados e cidades brasileiras;
 
 3. Implementar o mesmo problema utilizando aprendizado profundo a fim de fazer uma comparação do resultado.
+
+## Referências
+
+WEN, C. et al. Spatial-Related Traffic Sign Inspection for Inventory Purposes Using Mobile Laser Scanning Data. IEEE Transactions on Intelligent Transportation Systems, [S.I.], v. 17, p. 27-37, abr. 2015. Disponível em: <https://ieeexplore.ieee.org/abstract/document/7089251>. Acesso em: 28 jun. 2023.
+
+De cada dez veículos no mundo, um será carro autônomo até 2030. Estadão, [S.I.], 2020. Disponível em: <https://summitmobilidade.estadao.com.br/carros-autonomos/de-cada-dez-veiculos-no-mundo-um-sera-carro-autonomo-ate-2030/>. Acesso em: 28 jun. 2023
